@@ -13,4 +13,11 @@
     <string name="pref_location_key" translatable="false">location</string>
     <string name="pref_location_default" translatable="false">94043</string>
 
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable="false">temperature units</string>
+    <string name="pref_units_metric" translatable="false">Metric</string>
+    <string name="pref_units_imperial" translatable="false">Imperial</string>
+
+    <string name="action_map" translatable="false">Map Location</string>
+
 </resources>
