@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openPreferredLocation() {
+        final String LOG_TAG = ForecastFragment.FetchWeatherTask.class.getSimpleName();
+
         // From https://developer.android.com/training/basics/data-storage/shared-preferences.html
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         String locationValue = sharedPref.getString(getString(R.string.pref_location_key), getString(R.string.pref_location_default));
